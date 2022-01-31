@@ -14,9 +14,6 @@ keep the session on track and to ensureeveryone participates in the discussion.
 
 # Let's Begin!
 
-```
-Are you ready?
-```
 
 ```
 Prop drilling
@@ -42,11 +39,17 @@ comp
 ```
 
 global state
+
 theme
+
 application configuration
+
 authenticated user name
+
 user settings
+
 preferred language
+
 a collection of services
 
 
@@ -89,10 +92,6 @@ level.
 ```
 
 
-
-```
-START
-```
 ### API
 
 ```
@@ -105,18 +104,21 @@ Context.displayName
 create provide consume
 ```
 
-CREATE
+CREATE 
+
 Creates a Context object. When React renders a component that subscribes to this Context object
 it will read the current context value from the closest matching Provider above it in the tree.
 
 
 PROVIDER
+
 The Provider component accepts a value prop to be passed to consuming components that are
 descendants of this Provider. One Provider can be connected to many consumers. Providers can be
 nested to override values deeper within the tree.
 
 
-CONSUME
+CONSUMER
+
 A React component that subscribes to context changes. Using this component lets you subscribe to
 a context within a function component.
 
